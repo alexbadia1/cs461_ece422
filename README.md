@@ -283,6 +283,8 @@ For the visually inclined, try drawing out the message sequence from Wireshark:
 
 3. The IBM documentation for RSH has many ambiguities. I still can't figure out if sending an alternative stderr port is a *required* step. Empirically, the stderr port seems required. I also don't know if sending just a 0 (\x31) or a null byte (\x00) is valid.
 
+4. Osiris will try to use port 1021 to form a tcp connection for the stderr, if that port is busy, is will use the 1020, 1019, 1018, etc. port
+
 
 Look at my code for further details.
 

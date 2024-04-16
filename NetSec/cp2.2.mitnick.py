@@ -45,7 +45,7 @@ if __name__ == "__main__":
     conf.verb = 0
 
 
-    for i in range(1):
+    for i in range(20):
 
         my_port = random.randint(49152, 65535)
         trusted_host_port = 1023
