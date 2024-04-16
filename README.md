@@ -260,8 +260,7 @@ Conceptually, this attack is simple. The challenge, once again, is implementatio
 
 2. The server remains unaware of the packet modification and still expects the original sequence numbers and acknowledgements.
 
-3. To maintain a seamless connection, any traffic forwarded from the client to the server must have its sequence numbers and acknowledgements adjusted to reflect the expected values (as if no modification occurred).
-
+3. To maintain a seamless connection, any traffic forwarded from the client to the server must have its sequence numbers and acknowledgements adjusted to reflect the expected values (as if no modification occurred). Traffic forwarded from the server to the client must be re-adjust to reflect the sequence numbers and acknowledgment numbers of the altered packet.
 4. You must keep track of each TCP stream and/or HTTP stream, for multiple curls.
 
 **Tips**:
