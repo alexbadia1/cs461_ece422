@@ -274,7 +274,7 @@ For the visually inclined, try drawing out the message sequence from Wireshark:
 
 ## 5.2.2 TCP Off-Path Session Spoofing
 
-1. Study the RSH protool by running "root@attacker:~# rsh 10.4.61.25 uname" -ns 
+1. Study the RSH protool by running root@attacker:~# `rsh 10.4.61.25 uname -ns` 
     - Look at the cp2.2.mitnick/rsh.pcapng file in Wireshark for an example run
 
 2. Send each packet from the attacker and study the Osiris' and Trusted Server's responses.
