@@ -1,0 +1,7 @@
+CREATE DATABASE project2;
+
+CREATE USER 'abadia2'@'localhost' IDENTIFIED BY '423510c156a3f2680ee62f3fff42ca1c05fa87b05551f18fa5130b5dfe1017cc';
+
+GRANT INSERT, UPDATE, SELECT ON project2.* TO 'abadia2'@'localhost';
+
+FLUSH PRIVILEGES;

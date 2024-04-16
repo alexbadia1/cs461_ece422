@@ -1,0 +1,93 @@
+# client sent:  Ether / IP / TCP / HTTP / 'GET' '/' 'HTTP/1.1'
+###[ Ethernet ]### 
+  dst       = 02:42:ac:55:f4:3d
+  src       = 02:42:ac:80:ad:4b
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 187
+     id        = 13010
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xc680
+     src       = 10.4.22.9
+     dst       = 10.4.22.218
+     \options   \
+###[ TCP ]### 
+        sport     = 43250
+        dport     = http
+        seq       = 2396844723
+        ack       = 4190950241
+        dataofs   = 8
+        reserved  = 0
+        flags     = PA
+        window    = 502
+        chksum    = 0xcaaa
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2744215482, 3531323932))]
+###[ HTTP 1 ]### 
+###[ HTTP Request ]### 
+           Method    = 'GET'
+           Path      = '/'
+           Http_Version= 'HTTP/1.1'
+           A_IM      = None
+           Accept    = '*/*'
+           Accept_Charset= None
+           Accept_Datetime= None
+           Accept_Encoding= None
+           Accept_Language= None
+           Access_Control_Request_Headers= None
+           Access_Control_Request_Method= None
+           Authorization= 'Basic QXp1cmVEaWFtb25kOmh1bnRlcjI='
+           Cache_Control= None
+           Connection= None
+           Content_Length= None
+           Content_MD5= None
+           Content_Type= None
+           Cookie    = None
+           DNT       = None
+           Date      = None
+           Expect    = None
+           Forwarded = None
+           From      = None
+           Front_End_Https= None
+           HTTP2_Settings= None
+           Host      = 'www.bankofbailey.com'
+           If_Match  = None
+           If_Modified_Since= None
+           If_None_Match= None
+           If_Range  = None
+           If_Unmodified_Since= None
+           Keep_Alive= None
+           Max_Forwards= None
+           Origin    = None
+           Permanent = None
+           Pragma    = None
+           Proxy_Authorization= None
+           Proxy_Connection= None
+           Range     = None
+           Referer   = None
+           Save_Data = None
+           TE        = None
+           Upgrade   = None
+           Upgrade_Insecure_Requests= None
+           Upgrade_Insecure_Requests= None
+           User_Agent= 'curl/7.58.0'
+           Via       = None
+           Warning   = None
+           X_ATT_DeviceId= None
+           X_Correlation_ID= None
+           X_Csrf_Token= None
+           X_Forwarded_For= None
+           X_Forwarded_Host= None
+           X_Forwarded_Proto= None
+           X_Http_Method_Override= None
+           X_Request_ID= None
+           X_Requested_With= None
+           X_UIDH    = None
+           X_Wap_Profile= None
+           Unknown_Headers= None

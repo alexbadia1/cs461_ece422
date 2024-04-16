@@ -1,0 +1,13 @@
+Instead of treating the windows as a "bag of words" (or in this case "bag of syscalls"), I think you could try to thow an LLM at the issue. While this would still rely heavily on the training data, training an LLM to recognize patterns in the syscalls would be a slight improvement of raw anomaly detections as this would help combat day-zero attacks.
+
+If we want to insist on some probabilistic/statisictal recognition model using a "bag of words", an alternative would be to maybe turn this into a text information retrieval problem using word2vec or some variation:
+
+1. Preprocessing: First, you need to preprocess your system call logs. This could involve cleaning the data, normalizing system call names, and converting each sequence of system calls into a "sentence" of words.
+
+2. Training Word2Vec: Next, you train a Word2Vec model on these sentences. This will give you a vector representation for each system call. The idea is that system calls that are semantically similar (i.e., often appear in similar contexts) will have similar vector representations.
+
+3. Sequence Representation: Once you have vector representations for each system call, you can represent an entire sequence of system calls as a sequence of vectors. One common approach is to average the vectors of all system calls in the sequence, giving you a single vector that represents the sequence.
+
+4. Anomaly Scoring: Now, you need a way to score sequences for how anomalous they are. One approach is to use a distance measure like cosine similarity. You calculate the cosine similarity between the vector of a new sequence and the vectors of normal sequences. If the cosine similarity is below a certain threshold, you flag the sequence as an anomaly.
+
+5. Evaluation: Finally, you need to evaluate your anomaly detection system. This typically involves using a separate test set of normal and anomalous sequences. You calculate the precision, recall, and F1 score of your system.

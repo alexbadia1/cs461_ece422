@@ -1,0 +1,66 @@
+Analysis Helper,24737,1,16.666666666666664%
+Analysis Helper,24738,0,0.0%
+Analysis Helper,24739,0,0.0%
+Analysis Helper,24740,0,0.0%
+Cache I/O,24756,4,10.256410256410255%
+Cache2 I/O,24727,0,0.0%
+Chrome_ChildThr,24762,6,2.5423728813559325%
+DNS Resolver,24758,4,57.14285714285714%
+DOM Worker,24731,3,3.125%
+DOM Worker,24733,0,0.0%
+DOM Worker,24741,18,15.126050420168067%
+Gecko_IOThread,24722,3,1.2875536480686696%
+Gecko_IOThread,24761,0,0.0%
+HTML5 Parser,24734,0,0.0%
+ImageDecoder,24743,0,0.0%
+JS GC Helper,24724,0,0.0%
+Socket Thread,24723,27,16.875%
+StreamTrans,24730,2,66.66666666666666%
+StreamTrans,24736,4,44.44444444444444%
+StreamTrans,24742,0,0.0%
+StreamTrans,24744,0,0.0%
+StreamTrans,24745,2,11.11111111111111%
+StreamTrans,24746,0,0.0%
+StreamTrans,24747,0,0.0%
+StreamTrans,24750,3,4.477611940298507%
+Timer,24728,0,0.0%
+URL Classifier,24757,0,0.0%
+dbus-launch,24716,0,0.0%
+dbus-launch,24751,0,0.0%
+dbus-launch,24764,0,0.0%
+dconf worker,24715,0,0.0%
+dconf worker,24716,0,0.0%
+dconf worker,24763,0,0.0%
+dconf worker,24764,0,0.0%
+firefox,24712,106,0.8323517864153908%
+firefox,24713,0,0.0%
+firefox,24714,0,0.0%
+firefox,24751,0,0.0%
+gdbus,24717,7,12.962962962962962%
+gdbus,24765,11,28.947368421052634%
+grep,24768,0,0.0%
+localStorage DB,24753,5,5.376344086021505%
+mozStorage,24732,2,1.7543859649122806%
+mozStorage,24759,0,0.0%
+plugin-containe,24761,24,0.26258205689277897%
+plugin-containe,24766,0,0.0%
+plugin-containe,24774,1107,92.79128248113999%
+plugin-containe,24775,4,66.66666666666666%
+plugin-containe,24777,0,0.0%
+plugin-containe,24778,0,0.0%
+plugin-containe,24779,3,50.0%
+plugin-containe,24780,0,0.0%
+plugin-containe,24781,0,0.0%
+plugin-containe,24782,9,81.81818181818183%
+plugin-containe,24783,12,85.71428571428571%
+ps,24767,0,0.0%
+python,24707,6,0.0885608856088561%
+python,24710,0,0.0%
+python,24712,0,0.0%
+sh,24710,0,0.0%
+sh,24711,0,0.0%
+sh,24766,0,0.0%
+sh,24767,0,0.0%
+sh,24768,0,0.0%
+stapio,24707,0,0.0%
+uname,24711,0,0.0%

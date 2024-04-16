@@ -1,0 +1,66 @@
+Analysis Helper,24737,2,33.33333333333333%
+Analysis Helper,24738,0,0.0%
+Analysis Helper,24739,1,14.285714285714285%
+Analysis Helper,24740,0,0.0%
+Cache I/O,24756,13,33.33333333333333%
+Cache2 I/O,24727,0,0.0%
+Chrome_ChildThr,24762,22,9.322033898305085%
+DNS Resolver,24758,6,85.71428571428571%
+DOM Worker,24731,8,8.333333333333332%
+DOM Worker,24733,0,0.0%
+DOM Worker,24741,31,26.05042016806723%
+Gecko_IOThread,24722,7,3.004291845493562%
+Gecko_IOThread,24761,0,0.0%
+HTML5 Parser,24734,0,0.0%
+ImageDecoder,24743,0,0.0%
+JS GC Helper,24724,0,0.0%
+Socket Thread,24723,90,56.25%
+StreamTrans,24730,2,66.66666666666666%
+StreamTrans,24736,4,44.44444444444444%
+StreamTrans,24742,0,0.0%
+StreamTrans,24744,0,0.0%
+StreamTrans,24745,2,11.11111111111111%
+StreamTrans,24746,0,0.0%
+StreamTrans,24747,0,0.0%
+StreamTrans,24750,11,16.417910447761194%
+Timer,24728,0,0.0%
+URL Classifier,24757,0,0.0%
+dbus-launch,24716,0,0.0%
+dbus-launch,24751,0,0.0%
+dbus-launch,24764,0,0.0%
+dconf worker,24715,0,0.0%
+dconf worker,24716,0,0.0%
+dconf worker,24763,0,0.0%
+dconf worker,24764,0,0.0%
+firefox,24712,373,2.92893600314095%
+firefox,24713,0,0.0%
+firefox,24714,0,0.0%
+firefox,24751,0,0.0%
+gdbus,24717,11,20.37037037037037%
+gdbus,24765,19,50.0%
+grep,24768,0,0.0%
+localStorage DB,24753,9,9.67741935483871%
+mozStorage,24732,11,9.649122807017543%
+mozStorage,24759,3,23.076923076923077%
+plugin-containe,24761,77,0.8424507658643327%
+plugin-containe,24766,0,0.0%
+plugin-containe,24774,1133,94.97066219614418%
+plugin-containe,24775,4,66.66666666666666%
+plugin-containe,24777,0,0.0%
+plugin-containe,24778,0,0.0%
+plugin-containe,24779,4,66.66666666666666%
+plugin-containe,24780,0,0.0%
+plugin-containe,24781,0,0.0%
+plugin-containe,24782,9,81.81818181818183%
+plugin-containe,24783,12,85.71428571428571%
+ps,24767,0,0.0%
+python,24707,41,0.6051660516605166%
+python,24710,0,0.0%
+python,24712,0,0.0%
+sh,24710,0,0.0%
+sh,24711,0,0.0%
+sh,24766,0,0.0%
+sh,24767,0,0.0%
+sh,24768,0,0.0%
+stapio,24707,0,0.0%
+uname,24711,0,0.0%

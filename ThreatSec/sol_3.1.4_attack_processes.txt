@@ -1,0 +1,11 @@
+# This seems to be a false positive
+Analysis Helper
+
+# This seems to be like some web related attack involving a firefox-based selenium webdriver (hence Gecko_IOThread), python scripts, with some shellscripts and network transfering of some data
+Gecko_IOThread
+StreamTrans
+dconf worker
+firefox
+plugin-containe
+python
+sh

@@ -1,0 +1,65 @@
+# spoofing 10.4.22.9's ARP table: setting 10.4.22.218 to 02:42:ac:55:f4:3d
+# spoofing 10.4.22.218's ARP table: setting 10.4.22.9 to 02:42:ac:55:f4:3d
+#
+#  Client  sent:  Ether / IP / TCP 10.4.22.9:54800 > 10.4.22.218:http S  > seq:  3472045350 , ack:  0
+# 	[BEFORE] TCP Sessions:  {}
+# 	[AFTER] TCP Sessions:  {}
+# 	[Forward] seq:  3472045350 , diff:  0  | ack:  0 , diff:  0
+#
+#  Server  sent:  Ether / IP / TCP 10.4.22.218:http > 10.4.22.9:54800 SA  > seq:  4141995569 , ack:  3472045351
+# 	[BEFORE] TCP Sessions:  {}
+# 	[AFTER] TCP Sessions:  {}
+# 	[Forward] seq:  4141995569 , diff:  0  | ack:  3472045351 , diff:  0
+#
+#  Client  sent:  Ether / IP / TCP 10.4.22.9:54800 > 10.4.22.218:http A  > seq:  3472045351 , ack:  4141995570
+# 	[BEFORE] TCP Sessions:  {}
+# 	[AFTER] TCP Sessions:  {}
+# 	[Forward] seq:  3472045351 , diff:  0  | ack:  4141995570 , diff:  0
+#
+#  Client  sent:  Ether / IP / TCP / HTTP / 'GET' '/hard.html' 'HTTP/1.1'  > seq:  3472045351 , ack:  4141995570
+# 	[BEFORE] TCP Sessions:  {}
+# 	[AFTER] TCP Sessions:  {3472045444: {'COUNT': 0}}
+# 	[Forward] seq:  3472045351 , diff:  0  | ack:  4141995570 , diff:  0
+#
+#  Server  sent:  Ether / IP / TCP 10.4.22.218:http > 10.4.22.9:54800 A  > seq:  4141995570 , ack:  3472045444
+# 	[BEFORE] TCP Sessions:  {3472045444: {'COUNT': 0}}
+# 	[AFTER] TCP Sessions:  {3472045444: {'COUNT': 0}}
+# 	[Forward] seq:  4141995570 , diff:  0  | ack:  3472045444 , diff:  0
+#
+#  Server  sent:  Ether / IP / TCP / HTTP / 'HTTP/1.1' '200' 'OK' / Raw  > seq:  4141995570 , ack:  3472045444
+# 	[BEFORE] TCP Sessions:  {3472045444: {'COUNT': 0}}
+# 	[AFTER] TCP Sessions:  {3472045444: {'COUNT': 1}}
+# 	[Forward] seq:  4141995570 , diff:  0  | ack:  3472045444 , diff:  0
+#
+#  Server  sent:  Ether / IP / TCP 10.4.22.218:http > 10.4.22.9:54800 PA / HTTP / Raw  > seq:  4141997018 , ack:  3472045444
+# 	[BEFORE] TCP Sessions:  {3472045444: {'COUNT': 1}}
+b'alert("hi")</script></body>\n</html>\n'
+# 	[AFTER] TCP Sessions:  {3472045444: {'COUNT': 2}}
+# 	[Forward] seq:  4141997018 , diff:  0  | ack:  3472045444 , diff:  0
+#
+#  Client  sent:  Ether / IP / TCP 10.4.22.9:54800 > 10.4.22.218:http A  > seq:  3472045444 , ack:  4141997018
+# 	[BEFORE] TCP Sessions:  {3472045444: {'COUNT': 2}}
+# 	[AFTER] TCP Sessions:  {3472045444: {'COUNT': 1}}
+# 	[Forward] seq:  3472045444 , diff:  0  | ack:  4141997018 , diff:  0
+#
+#  Client  sent:  Ether / IP / TCP 10.4.22.9:54800 > 10.4.22.218:http A  > seq:  3472045444 , ack:  4141997054
+# 	[BEFORE] TCP Sessions:  {3472045444: {'COUNT': 1}}
+# 	[AFTER] TCP Sessions:  {3472045444: {'COUNT': 0}}
+# 	[Forward] seq:  3472045444 , diff:  0  | ack:  4141997026 , diff:  -28
+#
+#  Client  sent:  Ether / IP / TCP 10.4.22.9:54800 > 10.4.22.218:http FA  > seq:  3472045444 , ack:  4141997054
+# 	[BEFORE] TCP Sessions:  {3472045444: {'COUNT': 0}}
+# 	[AFTER] TCP Sessions:  {3472045444: {'COUNT': 0}}
+# 	[Forward] seq:  3472045444 , diff:  0  | ack:  4141997026 , diff:  -28
+#
+#  Server  sent:  Ether / IP / TCP 10.4.22.218:http > 10.4.22.9:54800 FA  > seq:  4141997026 , ack:  3472045445
+# 	[BEFORE] TCP Sessions:  {3472045444: {'COUNT': 0}}
+# 	[AFTER] TCP Sessions:  {3472045444: {'COUNT': 0}}
+# 	[Forward] seq:  4141997054 , diff:  28  | ack:  3472045445 , diff:  0
+#
+#  Client  sent:  Ether / IP / TCP 10.4.22.9:54800 > 10.4.22.218:http A  > seq:  3472045445 , ack:  4141997055
+# 	[BEFORE] TCP Sessions:  {3472045444: {'COUNT': 0}}
+# 	[AFTER] TCP Sessions:  {}
+# 	[Forward] seq:  3472045445 , diff:  0  | ack:  4141997027 , diff:  -28
+# restoring ARP table for 10.4.22.218
+# restoring ARP table for 10.4.22.9

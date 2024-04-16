@@ -1,0 +1,48 @@
+Analysis Helper,2908,6,60.0%
+Analysis Helper,2909,0,0.0%
+Analysis Helper,2910,2,16.666666666666664%
+Analysis Helper,2911,6,50.0%
+Cache I/O,2931,8,1.1049723756906076%
+Cache2 I/O,2900,0,0.0%
+DNS Resolver,2930,6,0.6335797254487857%
+DNS Resolver,2942,0,0.0%
+DOM Worker,2904,9,9.67741935483871%
+DOM Worker,2906,4,5.194805194805195%
+DOM Worker,2912,28,25.225225225225223%
+Gecko_IOThread,2895,0,0.0%
+HTML5 Parser,2907,7,29.166666666666668%
+ImageDecoder,2914,0,0.0%
+ImageDecoder,2925,0,0.0%
+ImageDecoder,2940,5,20.833333333333336%
+JS GC Helper,2897,0,0.0%
+SSL Cert,2934,0,0.0%
+SSL Cert,2935,0,0.0%
+Socket Thread,2896,465,3.0737704918032787%
+StreamTrans,2903,5,35.714285714285715%
+StreamTrans,2920,0,0.0%
+StreamTrans,2921,11,15.068493150684931%
+StreamTrans,2923,0,0.0%
+Timer,2901,0,0.0%
+URL Classifier,2932,9,7.086614173228346%
+dbus-launch,2889,0,0.0%
+dbus-launch,2926,0,0.0%
+dconf worker,2888,6,15.0%
+dconf worker,2889,0,0.0%
+firefox,2885,680,2.5569677370835526%
+firefox,2886,0,0.0%
+firefox,2887,0,0.0%
+firefox,2926,0,0.0%
+gdbus,2890,10,18.181818181818183%
+localStorage DB,2927,11,11.827956989247312%
+mozStorage,2905,13,1.2070566388115136%
+mozStorage,2933,4,12.5%
+mozStorage,2936,0,0.0%
+mozStorage,2937,0,0.0%
+mozStorage,2939,5,29.411764705882355%
+python,2880,0,0.0%
+python,2883,0,0.0%
+python,2885,0,0.0%
+sh,2883,0,0.0%
+sh,2884,0,0.0%
+stapio,2880,0,0.0%
+uname,2884,0,0.0%

@@ -1,0 +1,77 @@
+Analysis Helper,31835,5,71.42857142857143%
+Analysis Helper,31836,3,27.27272727272727%
+Analysis Helper,31837,0,0.0%
+Analysis Helper,31838,2,28.57142857142857%
+Cache I/O,31856,3,0.6237006237006237%
+Cache2 I/O,31824,0,0.0%
+Chrome_ChildThr,31864,15,0.03497237182625725%
+DNS Resolver,31855,1,0.16420361247947454%
+DNS Resolver,31877,0,0.0%
+DNS Resolver,31878,0,0.0%
+DNS Resolver,31883,1,0.8695652173913043%
+DOM Worker,31828,0,0.0%
+DOM Worker,31830,6,8.21917808219178%
+DOM Worker,31839,11,10.091743119266056%
+Gecko_IOThread,31819,5,0.024161592732192906%
+Gecko_IOThread,31863,0,0.0%
+HTML5 Parser,31831,0,0.0%
+Image Scaler,31876,0,0.0%
+ImageDecoder,31841,0,0.0%
+ImageDecoder,31850,0,0.0%
+JS GC Helper,31821,0,0.0%
+SSL Cert,31858,0,0.0%
+SSL Cert,31859,0,0.0%
+SSL Cert,31879,0,0.0%
+SSL Cert,31880,0,0.0%
+Socket Thread,31820,94,0.11871384910712031%
+StreamTrans,31827,0,0.0%
+StreamTrans,31834,1,25.0%
+StreamTrans,31840,0,0.0%
+StreamTrans,31842,0,0.0%
+StreamTrans,31844,0,0.0%
+StreamTrans,31846,0,0.0%
+StreamTrans,31847,0,0.0%
+StreamTrans,31848,0,0.0%
+StreamTrans,31849,0,0.0%
+Timer,31825,0,0.0%
+URL Classifier,31857,0,0.0%
+dbus-launch,31813,0,0.0%
+dbus-launch,31851,0,0.0%
+dbus-launch,31866,0,0.0%
+dconf worker,31812,0,0.0%
+dconf worker,31813,0,0.0%
+dconf worker,31865,0,0.0%
+dconf worker,31866,0,0.0%
+firefox,31809,188,0.3331797398362457%
+firefox,31810,0,0.0%
+firefox,31811,0,0.0%
+firefox,31851,0,0.0%
+gdbus,31814,0,0.0%
+gdbus,31867,0,0.0%
+grep,31870,0,0.0%
+localStorage DB,31852,0,0.0%
+mozStorage,31829,3,1.935483870967742%
+mozStorage,31860,0,0.0%
+mozStorage,31861,0,0.0%
+mozStorage,31862,0,0.0%
+mozStorage,31881,0,0.0%
+plugin-containe,31863,105,0.1893017469846936%
+plugin-containe,31868,0,0.0%
+plugin-containe,31871,0,0.0%
+plugin-containe,31872,0,0.0%
+plugin-containe,31873,0,0.0%
+plugin-containe,31882,8,0.018322988479420994%
+plugin-containe,31885,0,0.0%
+plugin-containe,31892,0,0.0%
+ps,31869,5,0.20911752404851527%
+python,31804,0,0.0%
+python,31807,0,0.0%
+python,31809,0,0.0%
+sh,31807,0,0.0%
+sh,31808,0,0.0%
+sh,31868,0,0.0%
+sh,31869,0,0.0%
+sh,31870,0,0.0%
+stapio,31804,0,0.0%
+threaded-ml,31891,15,0.20856507230255839%
+uname,31808,0,0.0%

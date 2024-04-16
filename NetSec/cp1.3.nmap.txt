@@ -1,0 +1,14 @@
+# Your answer MUST specify one IPAddress,port combination per line, without any extra spaces or angle brackets
+# For example:
+# 10.4.22.1,22
+# 10.4.22.4,80
+# 10.4.22.1,25
+#
+# Write your answer starting from the next line
+10.4.22.1,22
+10.4.22.9,22
+10.4.22.80,53
+10.4.22.83,475
+10.4.22.186,363
+10.4.22.218,80
+10.4.22.74,22

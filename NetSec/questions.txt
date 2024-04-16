@@ -1,0 +1,21 @@
+### 5.1.1 Exploring Network Traffic (7 points)
+
+  1. Should I be using the "Switch" in wireshark?
+  2. Should the cp1.1.*.txt files end with a new line?
+      - I only ask, because of the netid.txt requiring a newline for the script setup to work.
+
+
+
+### 5.1.2 Interacting with Network Hosts 
+
+  1. Should the cp2.2.*.txt files end with a new line?
+  2. By "Make sure you submit the entire unmodified HTTP response, not just the HTML portion." do you mean use the "-i" (include) arg in curl to include the HTTP headers?
+
+
+
+### 5.2.1.1 ARP Spoofing (25 points)
+
+1. Your program MUST forward all packets. The intercepted hosts should not observe any disrup-
+tion in communications.
+2. The order of the outputs does not matter, and each of the 4 answers MAY be printed more than once.
+

@@ -1,0 +1,21 @@
+# Your answer MUST specify one MAC address per line
+# For example:
+# 0f:0f:0f:0f:0f:0f
+# 1e:1e:1e:1e:1e:1e
+#
+# Write your answer starting from the next line
+
+# 10.4.22.1 -- Router
+02:42:4d:af:f9:d6
+
+# 10.4.22.193
+02:42:ac:8e:52:7f
+
+# 10.4.22.218 -- webserver
+02:42:ac:2d:70:42
+
+# 10.4.22.80 -- dns
+02:42:ac:05:c1:71
+
+# 10.4.22.9 -- client
+02:42:ac:80:ad:4b
